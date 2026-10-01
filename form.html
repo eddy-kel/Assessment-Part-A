@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Help us personalize your learning journey: tell ALT School a bit more about you.">
+  <title>Application Form | ALT School</title>
+</head>
+<body>
+ 
+  <a href="#main-content">Skip to main content</a>
+ 
+  <header>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="./index.html">Home (Assignment 1)</a></li>
+        <li><a href="./form.html" aria-current="page">Application Form</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+ 
+  <main id="main-content">
+ 
+    <section aria-labelledby="form-title">
+      <h1 id="form-title">Help us personalize your learning journey</h1>
+      <p>To give you the best experience, we'd love to know a bit more about you. It only takes 1 minute!</p>
+      <p id="name-notice" role="note"><strong>Important:</strong> Your name will appear on your certificate exactly as entered.</p>
+      <p>All fields are required except Middle Name.</p>
+    </section>
+ 
+    <form action="#" method="post">
+ 
+      <p>
+        <label for="first-name">First Name</label><br>
+        <input type="text" id="first-name" name="first_name" autocomplete="given-name" aria-describedby="name-notice" required>
+      </p>
+ 
+      <p>
+        <label for="last-name">Last Name</label><br>
+        <input type="text" id="last-name" name="last_name" autocomplete="family-name" aria-describedby="name-notice" required>
+      </p>
+ 
+      <p>
+        <label for="gender">Gender</label><br>
+        <select id="gender" name="gender" autocomplete="sex" required>
+          <option value="">Select gender</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="prefer_not_to_say">Prefer not to say</option>
+        </select>
+      </p>
+ 
+      <p>
+        <label for="country">Country of Residence</label><br>
+        <select id="country" name="country" autocomplete="country-name" required>
+          <option value="">Select country</option>
+          <option value="nigeria">Nigeria</option>
+          <option value="ghana">Ghana</option>
+          <option value="kenya">Kenya</option>
+          <option value="south_africa">South Africa</option>
+          <option value="rwanda">Rwanda</option>
+          <option value="uganda">Uganda</option>
+          <option value="tanzania">Tanzania</option>
+          <option value="cameroon">Cameroon</option>
+          <option value="egypt">Egypt</option>
+          <option value="ethiopia">Ethiopia</option>
+          <option value="senegal">Senegal</option>
+          <option value="other">Other</option>
+        </select>
+      </p>
+ 
+      <p>
+        <label for="employment">Employment Status</label><br>
+        <select id="employment" name="employment_status" required>
+          <option value="">Select your status</option>
+          <option value="employed">Employed</option>
+          <option value="self_employed">Self-employed</option>
+          <option value="student">Student</option>
+          <option value="unemployed">Unemployed</option>
+          <option value="other">Other</option>
+        </select>
+      </p>
+ 
+      <p>
+        <label for="referral">How did you hear about us?</label><br>
+        <select id="referral" name="referral_source" required>
+          <option value="">Select an option</option>
+          <option value="social_media">Social media</option>
+          <option value="friend_family">Friend or family</option>
+          <option value="search_engine">Search engine</option>
+          <option value="event">Event or community</option>
+          <option value="other">Other</option>
+        </select>
+      </p>
+ 
+      <p>
+        <label for="middle-name">Middle Name (Optional)</label><br>
+        <input type="text" id="middle-name" name="middle_name" placeholder="Enter middle name" autocomplete="additional-name">
+      </p>
+ 
+      <p>
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob" name="date_of_birth" autocomplete="bday" required>
+      </p>
+ 
+      <p>
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" required>
+      </p>
+ 
+      <p>
+        <label for="state">State/City of Residence</label><br>
+        <select id="state" name="state" autocomplete="address-level1" required>
+          <option value="">Select state</option>
+          <option value="abia">Abia</option>
+          <option value="adamawa">Adamawa</option>
+          <option value="akwa_ibom">Akwa Ibom</option>
+          <option value="anambra">Anambra</option>
+          <option value="bauchi">Bauchi</option>
+          <option value="bayelsa">Bayelsa</option>
+          <option value="benue">Benue</option>
+          <option value="borno">Borno</option>
+          <option value="cross_river">Cross River</option>
+          <option value="delta">Delta</option>
+          <option value="ebonyi">Ebonyi</option>
+          <option value="edo">Edo</option>
+          <option value="ekiti">Ekiti</option>
+          <option value="enugu">Enugu</option>
+          <option value="fct">FCT Abuja</option>
+          <option value="gombe">Gombe</option>
+          <option value="imo">Imo</option>
+          <option value="jigawa">Jigawa</option>
+          <option value="kaduna">Kaduna</option>
+          <option value="kano">Kano</option>
+          <option value="katsina">Katsina</option>
+          <option value="kebbi">Kebbi</option>
+          <option value="kogi">Kogi</option>
+          <option value="kwara">Kwara</option>
+          <option value="lagos">Lagos</option>
+          <option value="nasarawa">Nasarawa</option>
+          <option value="niger">Niger</option>
+          <option value="ogun">Ogun</option>
+          <option value="ondo">Ondo</option>
+          <option value="osun">Osun</option>
+          <option value="oyo">Oyo</option>
+          <option value="plateau">Plateau</option>
+          <option value="rivers">Rivers</option>
+          <option value="sokoto">Sokoto</option>
+          <option value="taraba">Taraba</option>
+          <option value="yobe">Yobe</option>
+          <option value="zamfara">Zamfara</option>
+          <option value="outside_nigeria">Outside Nigeria</option>
+        </select>
+      </p>
+ 
+      <p>
+        <label for="education">Educational Level</label><br>
+        <select id="education" name="education_level" required>
+          <option value="">Select your level</option>
+          <option value="secondary">Secondary school</option>
+          <option value="ond_hnd">OND / HND</option>
+          <option value="bachelors">Bachelor's degree</option>
+          <option value="masters">Master's degree</option>
+          <option value="phd">PhD</option>
+          <option value="other">Other</option>
+        </select>
+      </p>
+ 
+      <p>
+        <label for="address">Home Address</label><br>
+        <input type="text" id="address" name="home_address" placeholder="Enter your home address" autocomplete="street-address" size="40" required>
+      </p>
+ 
+      <p>
+        <button type="submit">Save &amp; continue</button>
+      </p>
+ 
+      <p><small>We'll never share your details, this is just to improve your learning experience.</small></p>
+ 
+    </form>
+  </main>
+ 
+  <hr>
+ 
+  <footer>
+    <address>
+      Eddy Kel<br>
+      No 777 Bikini Buttom<br>
+      Enugu State, Nigeria
+    </address>
+    <p><small>&copy; 2026 Eddy Kel. All rights reserved.</small></p>
+  </footer>
+ 
+</body>
+</html>
+ 
